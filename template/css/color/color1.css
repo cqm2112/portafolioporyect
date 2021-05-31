@@ -33,8 +33,7 @@
 #header.normal .slicknav_nav a:hover{
 	color:#F2784B;
 }
-#header .nav li a::before,
-#header .logo a::before,
+
 #personal-area .personal-text .btn:hover,
 #personal-area .personal-text .btn.primary,
 #personal-area.particle .arrow a,
