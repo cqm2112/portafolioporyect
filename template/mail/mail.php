@@ -1,18 +1,18 @@
-<?
-$name = $_POST{'name'};
-$email = $_POST{'email'};
-$message = $_POST['message'];
+<?php
 
-$email_message = "
+    $name = $_POST['name'];
+    $email = $_POST['email'];
+    $message = $_POST['message'];
 
-Name: ".$name."
-Email: ".$email."
-Message: ".$message."
+    $destinatario = '20187221@itla.edu.do';
+    $asunto = 'Mensaje desde mi web';
 
-";
+    $carta = `De: $name \n`;
+    $carta .= `Correo: $email \n`;
+    $carta .= `Mensaje: $message`;
 
-mail ("20187221@itla.edu.do" , "contact", $email_message);
-header("location: ../mail-success.html ");
+mail($destinatario, $asunto, $carta);
+header('location: succes.html');
 ?>
 
 
