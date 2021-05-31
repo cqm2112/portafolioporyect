@@ -54,6 +54,12 @@ Version:	1.1
 	transition: all 0.3s ease;
 	background:rgba(0, 0, 0, 0.36);
 }
+.logo{
+	display: flex;
+}
+#logo{
+	width: 35%;
+}
 /* Logo */
 #header .logo {
 	padding-top: 17px;
@@ -275,6 +281,9 @@ Version:	1.1
 #header.sticky .logo a {
 	color: #353535;
 }
+#logo.sticky{
+	filter: invert(1);
+}
 #header.sticky .nav li ul {
 	-webkit-box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.50);
 	-moz-box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.50);
@@ -391,7 +400,7 @@ Version:	1.1
 	Personal CSS
 =========================*/  
 #personal-area {
-	background-image: url('http://via.placeholder.com/1500x800');
+	background-image: url('./images/baCKGROUN\ web.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	height: 680px;

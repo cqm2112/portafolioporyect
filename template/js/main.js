@@ -60,8 +60,10 @@ Version:	1.1
 		jQuery(window).on('scroll', function() {
 			if ($(this).scrollTop() > 1) {
 				$('#header').addClass("sticky");
+				$('#logo').addClass("sticky");
 			} else {
 				$('#header').removeClass("sticky");
+				$('#logo').removeClass("sticky");
 			}
 		});
 			
