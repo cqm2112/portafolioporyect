@@ -1,5 +1,7 @@
 <?php
 
+try{
+
     $name = $_POST['name'];
     $email = $_POST['email'];
     $message = $_POST['message'];
@@ -11,8 +13,13 @@
     $carta .= `Correo: $email \n`;
     $carta .= `Mensaje: $message`;
 
-mail($destinatario, $asunto, $carta);
-header('location: succes.html');
+    mail($destinatario, $asunto, $carta);
+    header('location: succes.html');
+
+}catch (Throwable $e) {
+    echo "Captured Message: " . $e->getMessage() . PHP_EOL;
+}
+   
 ?>
 
 
