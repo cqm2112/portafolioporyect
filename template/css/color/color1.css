@@ -31,7 +31,7 @@
 #header.sidenav .nav li.active a,
 #header.sidenav .nav li:hover a,
 #header.normal .slicknav_nav a:hover{
-	color:#F2784B;
+	color:#5ac4ff;
 }
 
 #personal-area .personal-text .btn:hover,
@@ -97,17 +97,17 @@
 #breadcrumbs .bread-list,
 #header .side-icon a,
 #header .social,
-#call-action::before,
+
 .k-line{
-	background: #F2784B;
+	background: #5ac4ff;
 }
 #header .nav li a::after,
 #portfolio .portfolio-nav ul li span::before,
 #clients.section{
-	border-top-color:#F2784B;
+	border-top-color:#5ac4ff;
 }
 #blog .blog-head{
-	border-bottom-color:#F2784B
+	border-bottom-color:#5ac4ff;
 }
 #countdown .single-count:hover i:after,
 #countdown .single-count.active i:after,
@@ -116,5 +116,5 @@
 #contact .form-group input:hover,
 #contact .form-group input:focus,
 #contact .form-group textarea:hover{
-	border-color:#F2784B;
+	border-color:#5ac4ff;
 }
