@@ -97,9 +97,8 @@
 								<div class="collapse navbar-collapse">
 									<ul class="nav navbar-nav menu">
 										<li class="active"><a href="#personal-area"><i class="fa fa-home"></i>Inicio</a></li>
-										<li><a href="#my-service"><i class="fa fa-rocket"></i>Mis servicios</a></li>
 										<li><a href="#portfolio"><i class="fa fa-briefcase"></i>Portfolio</a></li>
-										<li><a href="#my-timeline"><i class="fa fa-history"></i>Linea de tiempo</a></li>	
+										<li><a href="#my-service"><i class="fa fa-rocket"></i>Mis servicios</a></li>	
 										<li><a href="#contact"><i class="fa fa-address-book"></i>Contacto</a></li>		
 									</ul>
 									<ul class="social-icon">
@@ -348,7 +347,6 @@
 						</div>
 					</div>
 				</div>
-						
 				<div class="row">
 					<div class="col-md-12 col-sm-12 col-xs-12">
 						<!-- portfolio Nav -->
@@ -359,6 +357,7 @@
 								<li data-filter=".design"><span>17</span><i class="fa fa-newspaper-o"></i>Flyers</li>
 								<li data-filter=".html5"><span>25</span><i class="fa fa-file-image-o"></i>Logos</li>
 								<li data-filter=".wordpress"><span>02</span><i class="fa fa-bars"></i>Menus</li>
+								<li data-filter=".ocultar">ocultar</li>
 							</ul>
 						</div>
 						<!--/ End portfolio Nav -->
@@ -1207,6 +1206,16 @@
 									</div>
 								</div>
 							</div>
+
+							<div class="mix ocultar col-md-4 col-sm-6 col-xs-12 col-fix">
+								<div class="portfolio-single">
+									<div class="portfolio-head">
+										<div class="container">
+											<h1>Elementos Ocultos</h1>
+										</div>	
+									</div>
+								</div>
+							</div>
 							<!--/ End portfolio -->	
 							<!-- Single portfolio -->
 							
@@ -1229,7 +1238,7 @@
 			</div>
 		</section>
 		<!--/ End portfolio -->
-		
+
 		<!-- Start Count Down -->
 		<section id="countdown" class="section" data-stellar-background-ratio="0.3">
 			<div class="container">
@@ -1541,6 +1550,7 @@
 
 		<!-- Send Email -->
 		<script>
+
 			let alert = document.querySelector('#alert');
 			alert.hidden = true;
 			const formContact = document.querySelector('#form-contact');
